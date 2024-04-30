@@ -97,3 +97,8 @@ header, footer {
     top: 50%; /* Centering vertically */
     transform: translateY(-50%);
 }
+/* Footer styling - making it transparent or blending it with the background */
+footer {
+    text-align: center;
+	color: black;
+   
