@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kai Thorpe - Links</title>
-    <link rel="stylesheet" href="styles.css?version=0.0001">
+    <script>
+    // Dynamic CSS loading with a timestamp to prevent caching
+    var link = document.createElement("link");
+    link.href = "styles.css?v=" + new Date().getTime(); // Appends the current timestamp
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
 </head>
 <body>
     <div class="body-background"></div>
@@ -13,17 +20,17 @@
     </div>
     <div class="container">
         <header>
-			<img src="https://i.imgur.com/W6taaXg.png" alt="" class="profile-image">
-			<h1>Kai Thorpe <img src="https://i.imgur.com/IUSSnnv.png" alt="Verification" class="verification-icon"></h1>
-			<p>Follow me on my social media channels:</p>
-		</header>
+            <img src="https://i.imgur.com/W6taaXg.png" alt="" class="profile-image">
+            <h1>Kai Thorpe <img src="https://i.imgur.com/IUSSnnv.png" alt="Verification" class="verification-icon"></h1>
+            <p>Follow me on my social media channels:</p>
+        </header>
 
         <div class="links">
             <a href="https://discord.gg/A8yxmbYVZw" class="link-button">
                 <img src="https://i.imgur.com/uPzX5jx.gif" alt="Discord" class="icon"><span>Join my Discord Server!</span>
             </a>
-		    <a href="twitch.tv/gritwithkai" class="link-button">
-                <img src="https://cdn.iconscout.com/icon/free/png-256/free-twitch-11-461838.png" alt="TwitchTV" class="icon"><span>Follow me on Twitch</span>
+            <a href="https://twitch.tv/gritwithkai" class="link-button">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/twitch-1544380-1305617.png" alt="TwitchTV" class="icon"><span>Follow me on Twitch</span>
             </a>
             <a href="https://twitter.com/GritWithKai" class="link-button">
                 <img src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0.jpg" alt="Twitter" class="icon"><span>Follow me on X</span>

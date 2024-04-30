@@ -4,7 +4,7 @@ body {
     background-image: url('https://i.imgur.com/47Ypz9D.png'); /* Updated background image URL */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensure the background is fixed during scrolling */
     margin: 0;
     padding: 0;
     color: #333;
@@ -18,8 +18,8 @@ h1 {
 }
 
 .verification-icon {
-    width: 30x; /* Adjust width as needed */
-    height: 30px; /* Adjust height as needed */
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
     position: absolute; /* Positioned relative to the h1 element */
     top: 50%; /* Vertically center the icon */
     transform: translateY(-50%) translateX(5%); /* Center the icon vertically and position it horizontally after the text */
@@ -28,26 +28,28 @@ h1 {
 /* Applying blur effect to the background only */
 .body-background {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: inherit;
-    filter: blur(15px);
-    z-index: -2;
+    top: -10vw; /* Extend beyond the viewport */
+    left: -10vw; /* Extend beyond the viewport */
+    right: -10vw; /* Extend beyond the viewport */
+    bottom: -10vw; /* Extend beyond the viewport */
+    width: 120vw; /* Increase width */
+    height: 120vh; /* Increase height */
+    background-image: inherit; /* Use the same background as the body */
+    filter: blur(15px); /* Blur effect */
+    z-index: -1; /* Keep it behind all other content */
 }
 
-/* Container for content, now without any specific background */
+/* Container, header, and footer styling */
 .container, header, footer {
     width: 80%;
     margin: 0 auto;
     padding: 5px;
     box-sizing: border-box;
     box-shadow: none; /* Removes shadows */
+    background-color: transparent; /* Ensures no background color interferes */
 }
 
-/* Header styling - making it transparent or blending it with the background */
-header {
+header, footer {
     color: white;
     text-align: center;
     padding: 20px;
@@ -67,24 +69,24 @@ header {
 .link-button {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center content within the button */
+    justify-content: center;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    color: rgba(0, 0, 0, 0.6);
     padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.4); /* White with 40% transparency */
+    background-color: rgba(255, 255, 255, 0.4);
     width: 100%;
-    max-width: 580px; /* Maximum width set to 580 pixels */
+    max-width: 580px;
     border: none;
     border-radius: 5px;
-    margin: 10px auto; /* Centered horizontally */
-    transition: transform 0.3s ease; /* Added transform transition */
-    position: relative; /* Added to adjust position relative to parent */
+    margin: 10px auto;
+    transition: transform 0.3s ease;
+    position: relative;
 }
 
 .link-button:hover {
-	background-color: rgba(255, 255, 255, 0.7); /* Slightly more opaque on hover */
-    transform: scale(1.05); /* Scale the button slightly larger on hover */
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added box-shadow effect on hover */
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .link-button .icon {
@@ -95,9 +97,3 @@ header {
     top: 50%; /* Centering vertically */
     transform: translateY(-50%);
 }
-
-/* Footer styling - making it transparent or blending it with the background */
-footer {
-    text-align: center;
-	color: white;
-   
