@@ -80,6 +80,7 @@ header, footer {
     margin: 10px auto;
     transition: transform 0.3s ease;
     position: relative;
+	left: -20px;
 }
 
 .link-button:hover {
