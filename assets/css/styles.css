@@ -1,7 +1,6 @@
 /* General body styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://i.imgur.com/47Ypz9D.png'); /* Updated background image URL */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Ensure the background is fixed during scrolling */
