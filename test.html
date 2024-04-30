@@ -1,20 +1,33 @@
-<html>
-  <body>
-    <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-follow-button"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch Follow Button</title>
+</head>
+<body>
 
-    <!-- Load the Twitch embed JavaScript file -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+<!-- Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-follow-button", {
-        width: 854,
-        height: 480,
-        channel: "monstercat",
-        // Only needed if this page is going to be embedded on other websites
-        parent: ["kai-thorpe.com"]
-      });
-    </script>
-  </body>
+<!-- Twitch Follow Button Container -->
+<div id="twitch-follow-button"></div>
+
+<script>
+  // Twitch Embed Options
+  var options = {
+    width: 300,            // Width of the embedded button
+    height: 50,            // Height of the embedded button
+    channel: "your_channel_name_here",  // Your Twitch channel name
+    layout: "padded",      // Layout style ("padded", "dark", "light")
+    theme: "dark",         // Theme ("dark", "light")
+    // Add your Client ID here
+    clientId: "your_client_id_here"
+  };
+
+  // Embed the Twitch Follow Button
+  new Twitch.Embed("twitch-follow-button", options);
+</script>
+
+</body>
 </html>
