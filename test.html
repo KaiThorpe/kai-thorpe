@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch Follow Button</title>
+</head>
+<body>
+
+<!-- Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+<!-- Twitch Follow Button Container -->
+<div id="twitch-follow-button"></div>
+
+<script>
+  // Twitch Embed Options
+  var options = {
+    width: 300,            // Width of the embedded button
+    height: 50,            // Height of the embedded button
+    channel: "gritwithkai",  // Your Twitch channel name
+    layout: "padded",      // Layout style ("padded", "dark", "light")
+    theme: "dark"          // Theme ("dark", "light")
+	
+	clientId: "uis8znp203vch63g123qqtujyknrdr"
+  };
+
+  // Embed the Twitch Follow Button
+  new Twitch.Embed("twitch-follow-button", options);
+</script>
+
+</body>
+</html>
