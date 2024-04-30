@@ -51,7 +51,7 @@ h1 {
 header, footer {
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background-color: transparent; /* Fully transparent background */
 }
 
@@ -98,12 +98,3 @@ header, footer {
     transform: translateY(-50%);
 }
 
-header {
-    padding-bottom: 10px; /* Increase or decrease as needed */
-    margin-bottom: 10px; /* This adds space below the header */
-}
-
-.links {
-    padding-top: 10px; /* Increase or decrease as needed */
-    margin-top: 10px; /* This adds space above the button container */
-}
