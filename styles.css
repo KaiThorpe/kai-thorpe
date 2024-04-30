@@ -1,0 +1,117 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.imgur.com/47Ypz9D.png'); /* Updated background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow: hidden; /* Ensures no scrolling due to background size */
+}
+
+/* Centering the verification icon with the text */
+h1 {
+    position: relative; /* Added to position the verification icon relative to the text */
+    display: inline-block; /* Ensures the h1 element only takes the width of its content */
+	color: white;
+}
+
+.verification-icon {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    position: absolute; /* Positioned relative to the h1 element */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%) translateX(5%); /* Center the icon vertically and position it horizontally after the text */
+}
+
+
+
+/* Applying blur effect to the background only */
+.body-background {
+    position: fixed;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+    background-image: inherit;
+    filter: blur(15px);
+    z-index: -1;
+}
+
+
+
+/* Container for content, now without any specific background */
+.container, header, footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: none; /* Removes shadows */
+}
+
+/* Header styling - making it transparent or blending it with the background */
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: transparent; /* Fully transparent background */
+}
+
+/* Profile image styling */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Link button specific styles */
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content within the button */
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.4); /* White with 20% transparency */
+    width: 100%;
+    max-width: 580px; /* Maximum width set to 580 pixels */
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto; /* Centered horizontally */
+    transition: transform 0.3s ease; /* Added transform transition */
+    position: relative; /* Added to adjust position relative to parent */
+}
+
+.link-button:hover {
+	background-color: rgba(255, 255, 255, 0.7); /* Slightly more opaque on hover */
+    transform: scale(1.05); /* Scale the button slightly larger on hover */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added box-shadow effect on hover */
+}
+
+.link-button .icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 15px; /* Position from the left edge of the button */
+    top: 50%; /* Centering vertically */
+    transform: translateY(-50%);
+}
+
+.links {
+    max-height: 630px; /* Adjust the height as needed */
+    overflow-y: auto;  /* Enables vertical scrolling */
+}
+
+
+/* Footer styling - making it transparent or blending it with the background */
+footer {
+    text-align: center;
+    background-color: transparent; /* Fully transparent background */
+    color: white;
+    position: relative;
+    bottom: 0;
+}
