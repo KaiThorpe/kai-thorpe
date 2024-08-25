@@ -11,6 +11,13 @@ exclude:
   - "index.html" # Exclude the custom homepage from Jekyll processing
   - "assets/"    # Exclude the assets directory from being processed
 
+# Plugins
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
 # Directory defaults
 defaults:
   - scope:
@@ -18,3 +25,4 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+
