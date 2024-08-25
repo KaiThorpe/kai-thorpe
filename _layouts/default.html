@@ -4,15 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-  <!-- Optional: Add custom fonts, icons, etc. here -->
+  <link rel="stylesheet" href="{{ '/assets/css/obsidian_styles.css' | relative_url }}">
 </head>
 <body>
   <header>
     <h1>{{ site.title }}</h1>
-    <!-- Add navigation or other header content here -->
   </header>
   
+  <div class="sidebar">
+    <h2>Destiny's Notebook</h2>
+    <input type="text" placeholder="Search page or heading..." class="search-bar">
+    <ul>
+        <li><a href="#">College Resolutions</a>
+            <ul>
+                <li><a href="#">2024.02.06 - Yale Political Union</a></li>
+                <li><a href="#">2024.02.07 - Cornell Political Union</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Debate Prep</a></li>
+        <li><a href="#">Debate Review</a></li>
+        <li><a href="#">Personal</a></li>
+        <!-- Add more sections here -->
+    </ul>
+  </div>
+
   <main>
     {{ content }}
   </main>
