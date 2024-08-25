@@ -22,8 +22,8 @@
     "rateLimit": 4986
   },
   "upload": {
-    "behavior": "fixed",
-    "defaultName": "",
+    "behavior": "obsidian",
+    "defaultName": "Obsidian",
     "rootFolder": "",
     "yamlFolderKey": "",
     "frontmatterTitle": {
@@ -57,7 +57,7 @@
       "fields": []
     },
     "links": {
-      "internal": false,
+      "internal": true,
       "unshared": false,
       "wiki": false,
       "slugify": "disable"
@@ -93,7 +93,11 @@
     "noticeError": false,
     "displayModalRepoEditing": false,
     "setFrontmatterKey": "Set",
-    "migrated": true
+    "migrated": true,
+    "shareAll": {
+      "enable": true,
+      "excludedFileName": "DRAFT"
+    }
   },
-  "tabsId": "github-configuration"
+  "tabsId": "upload-configuration"
 }

@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -173,7 +173,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e2a088573dd1b22",
+  "active": "cd8413941dfe3848",
   "lastOpenFiles": [
     "Welcome.md",
     "create a link.md",

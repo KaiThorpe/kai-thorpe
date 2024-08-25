@@ -1,3 +1,6 @@
+---
+share: true
+---
 
 # 📊 Dashboard
 

@@ -11,6 +11,5 @@
   "templater-obsidian",
   "obsidian-habit-tracker",
   "obsidian-style-settings",
-  "obsidian-git",
-  "obsidian-mkdocs-publisher"
+  "obsidian-git"
 ]
