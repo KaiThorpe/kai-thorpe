@@ -3,7 +3,12 @@ description: "Notes published from my Obsidian vault"
 baseurl: "" # Leave empty if you're deploying to username.github.io
 url: "https://kai-thorpe.com" # Your site's URL
 
+# Markdown settings
 markdown: kramdown
+kramdown:
+  input: GFM # Use GitHub Flavored Markdown (GFM) for better compatibility with Obsidian syntax
+
+# Theme
 theme: minima # Optional: Change or remove if not using a theme
 
 # Exclude certain files or directories from Jekyll processing
@@ -12,11 +17,9 @@ exclude:
   - "assets/"    # Exclude the assets directory from being processed
 
 # Plugins
-
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
 
 # Directory defaults
 defaults:
@@ -25,4 +28,4 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-
+      permalink: "/:path/" # Keeps the URL structure clean (removes .html from URLs)
