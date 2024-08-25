@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Activities/Gaming/OSRS/Clan Keys.md",
+                "file": "0_Dashboard/0_Dashboard.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_Activities/Gaming/OSRS/Clan Keys.md",
+                "file": "0_Dashboard/0_Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_Activities/Gaming/OSRS/Clan Keys.md",
+                "file": "0_Dashboard/0_Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_Activities/Gaming/OSRS/Clan Keys.md"
+                "file": "0_Dashboard/0_Dashboard.md"
               }
             }
           },
@@ -175,6 +175,9 @@
   },
   "active": "7e2a088573dd1b22",
   "lastOpenFiles": [
+    "0_Dashboard/Calendar.md",
+    "0_Dashboard/0_Dashboard.md",
+    "1_Activities/Gaming/OSRS/Clan Keys.md",
     "4_Projects/Videos/test.md",
     "4_Projects/Videos/New Text Document.txt",
     "gitkeep.sh",
@@ -183,7 +186,6 @@
     "gitkeep.bash",
     "gitkeep.bat",
     "New WinRAR ZIP archive.zip",
-    "1_Activities/Gaming/OSRS/Clan Keys.md",
     "1_Activities/Gaming/OSRS/Mudhammam",
     "Main/Obsidian",
     "Main",
@@ -191,8 +193,6 @@
     "8_Tasks/Periodic Tasks.md",
     "8_Tasks/Project Tasks.md",
     "8_Tasks/To-Do-List.md",
-    "0_Dashboard/0_Dashboard.md",
-    "0_Dashboard/Calendar.md",
     "3_Personal Logs/Untitled.md",
     "Welcome.md",
     "create a link.md"
