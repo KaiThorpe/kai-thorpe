@@ -1,0 +1,20 @@
+title: "Kai's Obsidian Notes"
+description: "Notes published from my Obsidian vault"
+baseurl: "" # Leave empty if you're deploying to username.github.io
+url: "https://kai-thorpe.com" # Your site's URL
+
+markdown: kramdown
+theme: minima # Optional: Change or remove if not using a theme
+
+# Exclude certain files or directories from Jekyll processing
+exclude:
+  - "index.html" # Exclude the custom homepage from Jekyll processing
+  - "assets/"    # Exclude the assets directory from being processed
+
+# Directory defaults
+defaults:
+  - scope:
+      path: "obsidian"
+      type: "pages"
+    values:
+      layout: "page"
