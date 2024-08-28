@@ -5,20 +5,17 @@ share: true
 # 📊 Dashboard
 
 ## 🌟 Starred Notes
-```dataview
-list from "0_Dashboard" and !"0_Dashboard/0_Dashboard.md"
-```
+- [[0_Dashboard/Calendar.md|Calendar]]
+- [[0_Dashboard/01_Dashboard.md|01_Dashboard]]
+
 
 ## 📅 Calendar
 [Open Calendar](obsidian://open?vault=Main&file=Calendar)
 
 ## 📝 Daily Notes
-```dataview
-table file.mtime as "Last Modified"
-from "3_Daily_"
-sort file.mtime desc
-limit 5
-```
+| File | Last Modified |
+| ---- | ------------- |
+
 
 ## ✅ Tasks
 ```tasks
@@ -28,22 +25,14 @@ not done
 
 ## 🗂️ Projects
 ### Videos
-```dataview
-list from "4_Projects/Videos"
-```
+
 ### Streams
-```dataview
-list from "4_Projects/Streams"
-```
+
 ### Shorts
 #### TikToks
-```dataview
-list from "4_Projects/Shorts/TikToks"
-```
+
 #### YouTube Shorts
-```dataview
-list from "4_Projects/Shorts/YouTube Shorts"
-```
+
 
 ## 📊 Habit Tracker
 ```habitt
