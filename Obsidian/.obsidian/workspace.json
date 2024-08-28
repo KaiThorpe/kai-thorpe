@@ -35,9 +35,11 @@
             "id": "7488f49b104a8e6c",
             "type": "leaf",
             "state": {
-              "type": "mk-uri-view",
+              "type": "markdown",
               "state": {
-                "path": "https://www.make.md/static/latest.md"
+                "file": "0_Dashboard/01_Dashboard.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0_Dashboard/01_Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0_Dashboard/01_Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0_Dashboard/01_Dashboard.md"
+              }
             }
           },
           {
@@ -190,12 +195,12 @@
   },
   "active": "7488f49b104a8e6c",
   "lastOpenFiles": [
+    "0_Dashboard/Calendar.md",
+    "0_Dashboard/01_Dashboard.md",
     "Tags",
     "1_Activities/Gaming/OSRS/Clan Keys.md",
     "Welcome.md",
     "create a link.md",
-    "0_Dashboard/01_Dashboard.md",
-    "0_Dashboard/Calendar.md",
     "0_Dashboard/0_Dashboard.md",
     "4_Projects/Videos/test.md",
     "4_Projects/Videos/New Text Document.txt",
@@ -208,7 +213,6 @@
     "1_Activities/Gaming/OSRS/Mudhammam",
     "Main/Obsidian",
     "Main",
-    "ObsidianMD",
     "8_Tasks/Periodic Tasks.md",
     "8_Tasks/Project Tasks.md",
     "8_Tasks/To-Do-List.md",
