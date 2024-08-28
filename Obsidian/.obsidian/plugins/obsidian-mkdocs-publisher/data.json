@@ -18,7 +18,7 @@
       "name": ""
     },
     "otherRepo": [],
-    "verifiedRepo": false,
+    "verifiedRepo": true,
     "rateLimit": 0
   },
   "upload": {
@@ -76,7 +76,7 @@
     "useObsidianFolder": true
   },
   "plugin": {
-    "shareKey": "kaithorpe",
+    "shareKey": "share",
     "fileMenu": false,
     "editorMenu": false,
     "excludedFolder": [],
@@ -96,5 +96,5 @@
     "setFrontmatterKey": "Set",
     "migrated": true
   },
-  "tabsId": "github-configuration"
+  "tabsId": "plugin-settings"
 }
