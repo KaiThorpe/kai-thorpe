@@ -10,7 +10,7 @@ site_description: "Notes published from my Obsidian vault"
 # Configuration
 theme:
   name: material
-  custom_dir: material/overrides
+  custom_dir: ../material/overrides  # Adjusted path to the material directory
   features:
     - content.code.annotate
     - content.code.copy
@@ -46,7 +46,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: ../assets/favicon.png  # Adjusted path to the favicon
   icon:
     logo: logo
 
@@ -128,5 +128,5 @@ markdown_extensions:
 
 # Hooks (optional)
 # hooks:
-#   - material/overrides/hooks/shortcodes.py
-#   - material/overrides/hooks/translations.py
+#   - ../material/overrides/hooks/shortcodes.py  # Adjusted path for hooks
+#   - ../material/overrides/hooks/translations.py  # Adjusted path for hooks
