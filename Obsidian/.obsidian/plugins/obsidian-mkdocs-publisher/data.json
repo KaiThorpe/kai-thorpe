@@ -1,6 +1,6 @@
 {
   "github": {
-    "user": "KaiThorpe",
+    "user": "kaithorpe",
     "repo": "kai-thorpe",
     "branch": "main",
     "automaticallyMergePR": true,
@@ -22,7 +22,7 @@
     "rateLimit": 0
   },
   "upload": {
-    "behavior": "fixed",
+    "behavior": "obsidian",
     "defaultName": "Obsidian",
     "rootFolder": "",
     "yamlFolderKey": "",
@@ -57,9 +57,9 @@
       "fields": []
     },
     "links": {
-      "internal": true,
-      "unshared": false,
-      "wiki": true,
+      "internal": false,
+      "unshared": true,
+      "wiki": false,
       "slugify": "disable"
     }
   },
@@ -77,7 +77,7 @@
   },
   "plugin": {
     "shareKey": "share",
-    "fileMenu": false,
+    "fileMenu": true,
     "editorMenu": false,
     "excludedFolder": [],
     "copyLink": {
@@ -91,10 +91,14 @@
         "applyRegex": []
       }
     },
-    "noticeError": false,
+    "noticeError": true,
     "displayModalRepoEditing": false,
     "setFrontmatterKey": "Set",
-    "migrated": true
+    "migrated": true,
+    "shareAll": {
+      "enable": true,
+      "excludedFileName": "DRAFT"
+    }
   },
-  "tabsId": "plugin-settings"
+  "tabsId": "upload-configuration"
 }

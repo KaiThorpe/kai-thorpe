@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0_Dashboard/Calendar.md",
+                "file": "0_Dashboard/01_Dashboard.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0_Dashboard/Calendar.md",
+                "file": "0_Dashboard/01_Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0_Dashboard/Calendar.md",
+                "file": "0_Dashboard/01_Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0_Dashboard/Calendar.md"
+                "file": "0_Dashboard/01_Dashboard.md"
               }
             }
           },
@@ -194,10 +193,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7488f49b104a8e6c",
+  "active": "b6093919d9406bc8",
   "lastOpenFiles": [
-    "0_Dashboard/01_Dashboard.md",
     "0_Dashboard/Calendar.md",
+    "0_Dashboard/01_Dashboard.md",
     "Tags",
     "1_Activities/Gaming/OSRS/Clan Keys.md",
     "Welcome.md",
