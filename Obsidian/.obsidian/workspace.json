@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7488f49b104a8e6c",
+            "type": "leaf",
+            "state": {
+              "type": "mk-uri-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,8 +87,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "3c4cad2f296559a8",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -98,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_Activities/Gaming/OSRS/Clan Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_Activities/Gaming/OSRS/Clan Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +154,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1_Activities/Gaming/OSRS/Clan Keys.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,14 +188,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd8413941dfe3848",
+  "active": "7488f49b104a8e6c",
   "lastOpenFiles": [
+    "Tags",
+    "1_Activities/Gaming/OSRS/Clan Keys.md",
     "Welcome.md",
     "create a link.md",
     "0_Dashboard/01_Dashboard.md",
     "0_Dashboard/Calendar.md",
     "0_Dashboard/0_Dashboard.md",
-    "1_Activities/Gaming/OSRS/Clan Keys.md",
     "4_Projects/Videos/test.md",
     "4_Projects/Videos/New Text Document.txt",
     "gitkeep.sh",
