@@ -57,9 +57,9 @@
       "fields": []
     },
     "links": {
-      "internal": false,
+      "internal": true,
       "unshared": true,
-      "wiki": false,
+      "wiki": true,
       "slugify": "disable"
     }
   },
@@ -100,5 +100,5 @@
       "excludedFileName": "DRAFT"
     }
   },
-  "tabsId": "upload-configuration"
+  "tabsId": "plugin-settings"
 }
