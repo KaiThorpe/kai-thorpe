@@ -2,25 +2,26 @@
 
 <!-- Custom Styles -->
 <style>
-    /* Ensure the button is fully transparent but visible */
-    .clickable-icon.collapse-tree-button {
-        display: block !important; /* Ensure the button is displayed */
+    /* General button styles to ensure visibility and no border */
+    .clickable-icon.collapse-tree-button,
+    .clickable-icon {
+        display: inline-block !important; /* Ensure the button is displayed */
         visibility: visible !important; /* Ensure button is visible */
         opacity: 1 !important; /* Ensure full opacity */
         background-color: transparent !important; /* Ensure no background color */
         border: none !important; /* Remove border */
         box-shadow: none !important; /* Remove shadow */
-        padding: 0 !important; /* Remove any padding */
+        padding: 4px !important; /* Add padding to restore the original size */
     }
 
-    /* Ensure the SVG inside the button is visible and correctly sized */
-    .clickable-icon.collapse-tree-button svg {
-        display: block !important; /* Ensure SVG is displayed */
-        visibility: visible !important; /* Ensure SVG is visible */
-        opacity: 1 !important; /* Ensure SVG is fully opaque */
+    /* Ensure SVG inside the button is visible and correctly sized */
+    .clickable-icon.collapse-tree-button svg,
+    .clickable-icon svg {
+        visibility: visible !important;  /* Ensure SVG is visible */
+        opacity: 1 !important;  /* Ensure SVG is fully opaque */
         fill: currentColor; /* Ensure SVG uses the current text color */
-        width: 100%; /* Make SVG take up the full button size */
-        height: 100%; /* Adjust as needed */
+        width: 24px; /* Adjust SVG size to original dimensions */
+        height: 24px; /* Adjust SVG size to original dimensions */
     }
 
     /* Override any hidden state classes */
@@ -28,16 +29,21 @@
     .clickable-icon.collapse-tree-button.hidden,
     .clickable-icon.collapse-tree-button[style*="display: none"],
     .clickable-icon.collapse-tree-button[style*="visibility: hidden"],
-    .clickable-icon.collapse-tree-button[style*="opacity: 0"] {
-        display: block !important;
+    .clickable-icon.collapse-tree-button[style*="opacity: 0"],
+    .clickable-icon[style*="display: none"],
+    .clickable-icon[style*="visibility: hidden"],
+    .clickable-icon[style*="opacity: 0"] {
+        display: inline-block !important;
         visibility: visible !important;
         opacity: 1 !important;
     }
 
     /* Ensure the parent elements do not hide the button */
     .clickable-icon.collapse-tree-button,
-    .clickable-icon.collapse-tree-button * {
-        display: block !important; /* Force display */
+    .clickable-icon.collapse-tree-button *,
+    .clickable-icon,
+    .clickable-icon * {
+        display: inline-block !important; /* Force display */
         visibility: visible !important; /* Force visibility */
         opacity: 1 !important; /* Ensure full opacity */
     }
@@ -46,11 +52,11 @@
 <!-- Custom Scripts -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const button = document.querySelector('.clickable-icon.collapse-tree-button');
-        if (button) {
-            button.style.display = 'block';
+        const buttons = document.querySelectorAll('.clickable-icon.collapse-tree-button, .clickable-icon');
+        buttons.forEach(button => {
+            button.style.display = 'inline-block';
             button.style.visibility = 'visible';
             button.style.opacity = '1';
-        }
+        });
     });
 </script>
