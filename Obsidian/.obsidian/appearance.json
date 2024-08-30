@@ -1,5 +1,8 @@
 {
   "showViewHeader": true,
   "cssTheme": "Obsidianite",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "custom-button-style"
+  ]
 }
