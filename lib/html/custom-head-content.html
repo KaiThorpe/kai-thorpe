@@ -1,25 +1,26 @@
-<!-- Custom head content -->
+/* Ensure the button is fully transparent but visible */
+.clickable-icon.collapse-tree-button {
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove any shadow */
+    background-color: transparent !important; /* Ensure no background color */
+    padding: 0 !important; /* Remove padding if necessary */
+    visibility: visible !important; /* Ensure button is visible */
+    opacity: 1 !important; /* Ensure full opacity */
+}
 
-<!-- Custom Styles -->
-<style>
-    /* Remove border from the button */
-    .clickable-icon.collapse-tree-button {
-        border: none !important; /* Remove any border */
-        box-shadow: none !important; /* Remove any shadow that might resemble a border */
-        background-color: transparent !important; /* Ensure no background color */
-        padding: 0 !important; /* Optional: Remove any padding to eliminate spacing */
-    }
+/* Ensure SVG inside the button is visible */
+.clickable-icon.collapse-tree-button svg {
+    visibility: visible !important;  /* Ensure SVG is visible */
+    opacity: 1 !important;  /* Ensure full opacity */
+    fill: currentColor; /* Ensure it uses the current text color */
+    display: block; /* Ensure it’s displayed correctly */
+    width: 100%;  /* Make SVG take up the full button size */
+    height: 100%; /* Adjust as needed */
+}
 
-    /* Ensure SVG is visible on page load */
-    .clickable-icon.collapse-tree-button svg {
-        visibility: visible !important;  /* Make sure SVG is visible */
-        opacity: 1 !important;  /* Ensure full opacity */
-        transition: none !important;  /* Disable any transition effects */
-    }
-</style>
-
-<!-- Custom Scripts -->
-<script>
-    console.log("Custom script loaded");
-    // Any other custom scripts can be added here
-</script>
+/* Optional: Ensure there's no CSS affecting visibility or display */
+.clickable-icon.collapse-tree-button.is-collapsed {
+    display: block !important; /* Force display */
+    visibility: visible !important; /* Ensure visibility */
+    opacity: 1 !important; /* Ensure opacity */
+}
