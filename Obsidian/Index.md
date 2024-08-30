@@ -4,4 +4,4 @@ dg-home: true
 ---
 this is a test
 
-[[01_Dashboard]]
+[[01_Dashboard]]test
