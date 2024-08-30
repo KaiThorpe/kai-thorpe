@@ -44,7 +44,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//assets",
+    "//assets/assets/screenshots"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
