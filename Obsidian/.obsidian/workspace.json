@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "0 Dashboard/calendar.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
+                "file": "0 Dashboard/calendar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
+                "file": "0 Dashboard/calendar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md"
+                "file": "0 Dashboard/calendar.md"
               }
             }
           },
@@ -180,14 +180,17 @@
   },
   "active": "592eebd60c69a6b9",
   "lastOpenFiles": [
+    "0 Dashboard/calendar.md",
+    "assets/head.html",
+    "assets/New Text Document.txt",
+    "assets/New folder",
+    "Index.md",
     "welcome.md",
     "Vault.md",
-    "Index.md",
     "8 Tasks/To-Do-List.md",
     "8 Tasks/Project Tasks.md",
     "8 Tasks/Periodic Tasks.md",
     "1 Activities/Gaming/OSRS/Clan Keys.md",
-    "0 Dashboard/calendar.md",
     "assets/favicon.png",
     "0 Dashboard/01_Dashboard.md",
     "//Untitled.canvas",
@@ -199,9 +202,6 @@
     "6 Reminders",
     "5 Research",
     "4 Projects/Shorts/YouTube Shorts",
-    "4 Projects/Shorts/TikToks",
-    "4 Projects/Streams",
-    "4 Projects/Shorts",
     "assets/images/illustration.png",
     "assets/images/zelda-light-world.png",
     "assets/images/zelda-dark-world.png",

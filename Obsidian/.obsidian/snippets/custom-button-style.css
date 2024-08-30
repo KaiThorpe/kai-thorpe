@@ -1,0 +1,9 @@
+/* Target the button with the specific class */
+.clickable-icon.collapse-tree-button {
+    background-color: transparent !important;
+}
+
+/* Optional: Adjust the hover effect */
+.clickable-icon.collapse-tree-button:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Adjust this value as needed */
+}
