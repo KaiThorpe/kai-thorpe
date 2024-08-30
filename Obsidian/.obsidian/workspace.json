@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "68702bb22801a086",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b2343164d53847a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "592eebd60c69a6b9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/favicon.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "805b9ee393f1e54b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8799d91f79a1e686",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62ecc10b5cbe99f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac9557636447eae0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6f769992afdacbf6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "ab7bef5e91f21b62",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "608e9cd3b763d597",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e3f3aace90abe01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76fc6c39a295b715",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "assets/favicon.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d915384b43cb8d3f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "assets/favicon.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d20b197ab1e8970",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "706410b481cc5205",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "assets/favicon.png"
+              }
+            }
+          },
+          {
+            "id": "272af0e27e0e377f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "tags-overview:Tags overview": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "active": "592eebd60c69a6b9",
+  "lastOpenFiles": [
+    "welcome.md",
+    "Vault.md",
+    "Index.md",
+    "8 Tasks/To-Do-List.md",
+    "8 Tasks/Project Tasks.md",
+    "8 Tasks/Periodic Tasks.md",
+    "1 Activities/Gaming/OSRS/Clan Keys.md",
+    "0 Dashboard/01_Dashboard.md",
+    "assets/favicon.png",
+    "//Untitled.canvas",
+    "Untitled.canvas",
+    "9 Notes",
+    "8 Tasks",
+    "7 Resources/Templates",
+    "7 Resources",
+    "6 Reminders",
+    "5 Research",
+    "4 Projects/Shorts/YouTube Shorts",
+    "4 Projects/Shorts/TikToks",
+    "4 Projects/Streams",
+    "4 Projects/Shorts",
+    "0 Dashboard/calendar.md",
+    "assets/images/illustration.png",
+    "assets/images/zelda-light-world.png",
+    "assets/images/zelda-dark-world.png",
+    "create a link.md"
+  ]
+}
