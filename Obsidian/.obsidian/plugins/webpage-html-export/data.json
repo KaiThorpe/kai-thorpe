@@ -17,7 +17,7 @@
   "logLevel": "warning",
   "minifyHTML": true,
   "makeNamesWebStyle": true,
-  "onlyExportModified": true,
+  "onlyExportModified": false,
   "deleteOldFiles": true,
   "addThemeToggle": true,
   "addOutline": true,
@@ -43,7 +43,7 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "C:\\\\Users\\Kai\\Documents\\Export Test",
+  "exportPath": "C:\\Users\\Kai\\Documents\\GitHub\\kai-thorpe\\Export Test",
   "filesToExport": [
     [
       "all"

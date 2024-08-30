@@ -11,8 +11,12 @@
             "id": "5bf33abcc3bde89e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "welcome.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "welcome.md"
+              }
             }
           },
           {
@@ -172,12 +180,14 @@
   },
   "active": "5bf33abcc3bde89e",
   "lastOpenFiles": [
-    "welcome.md",
     "Index.md",
     "create a link.md",
     "8 Tasks/To-Do-List.md",
     "8 Tasks/Project Tasks.md",
+    "8 Tasks/Periodic Tasks.md",
     "1 Activities/Gaming/OSRS/Clan Keys.md",
+    "0 Dashboard/calendar.md",
+    "welcome.md",
     "0 Dashboard/01_Dashboard.md",
     "New folder",
     "assets/screenshots/social-cards-accent.png",
@@ -187,7 +197,6 @@
     "assets/screenshots/consent.png",
     "assets/screenshots/back-to-top.png",
     "9 Notes",
-    "8 Tasks/Periodic Tasks.md",
     "8 Tasks",
     "7 Resources/Templates",
     "7 Resources",
@@ -197,7 +206,6 @@
     "4 Projects/Shorts/TikToks",
     "4 Projects/Streams",
     "1_Activities/Gaming/OSRS/Clan Keys.md",
-    "0 Dashboard/calendar.md",
     "Vault.md",
     "0_Dashboard/01_Dashboard.md",
     "0_Dashboard/Calendar.md",
