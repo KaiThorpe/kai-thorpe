@@ -2,10 +2,12 @@
 
 <!-- Custom Styles -->
 <style>
-    /* Remove white background and border from the Collapse All button */
+    /* Remove border from the button */
     .clickable-icon.collapse-tree-button {
-        background-color: transparent !important;
-        border: none !important;  /* Removes any border */
+        border: none !important; /* Remove any border */
+        box-shadow: none !important; /* Remove any shadow that might resemble a border */
+        background-color: transparent !important; /* Ensure no background color */
+        padding: 0 !important; /* Optional: Remove any padding to eliminate spacing */
     }
 
     /* Ensure SVG is visible on page load */
@@ -13,11 +15,6 @@
         visibility: visible !important;  /* Make sure SVG is visible */
         opacity: 1 !important;  /* Ensure full opacity */
         transition: none !important;  /* Disable any transition effects */
-    }
-
-    /* Optional: Adjust the hover effect */
-    .clickable-icon.collapse-tree-button:hover {
-        background-color: rgba(255, 255, 255, 0.1) !important; /* Adjust this value as needed */
     }
 </style>
 
